@@ -12,3 +12,4 @@
 - [Johannes Friedrich](https://github.com/JohannesFriedrich/AdventOfCode2020)
 - [Alexander Kulumbeg](https://github.com/akulumbeg/adventofcode/tree/master/2020)
 - [Fleur Kelpin](https://github.com/fdlk/advent-2020)
+- [Daniel Slone](https://gist.github.com/dhslone/a203366304df75bb9a3ebef17a6fed26)
