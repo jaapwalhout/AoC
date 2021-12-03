@@ -12,6 +12,7 @@ m <- 2^(11:0)
 # option 1
 g <- sum(round(colSums(d03) / nrow(d03)) * m)
 e <- sum(round((nrow(d03) - colSums(d03)) / nrow(d03)) * m)
+
 g * e
 
 # option 2
@@ -19,6 +20,13 @@ g <- round(colSums(d03) / nrow(d03))
 e <- abs(g - 1)
 
 sum(g * m) * sum(e * m)
+
+# option 3
+g <- round(colSums(d03) / nrow(d03))
+e <- abs(g - 1)
+
+strtoi(paste0(g, collapse = ""), base = 2) * strtoi(paste0(e, collapse = ""), base = 2)
+
 
 #---------
 # part two
