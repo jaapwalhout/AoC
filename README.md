@@ -14,4 +14,4 @@
 - [Fleur Kelpin](https://github.com/fdlk/advent-2020)
 - [Daniel Slone](https://gist.github.com/dhslone/a203366304df75bb9a3ebef17a6fed26)
 - [Emil Hvitfeldt](https://github.com/EmilHvitfeldt/rstats-adventofcode)
-- [Colin Rundel](https://github.com/rundel/advent_of_code_2021)
+- Colin Rundel: [2020](https://github.com/rundel/advent_of_code_2020), [2021](https://github.com/rundel/advent_of_code_2021)
