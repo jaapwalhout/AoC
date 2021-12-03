@@ -1,5 +1,7 @@
 # Advent of Code
 
+Solutions for the [Advent of Code](https://adventofcode.com/) problems.
+
 # Other solutions:
 
 - [Tokhir Dadaev](https://github.com/zx8754/AoC)
