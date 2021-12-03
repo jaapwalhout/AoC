@@ -41,7 +41,7 @@ tmp <- copy(d03)
 for (n in 1:ncol(d03)) {
   mc <- round((nrow(tmp) - sum(tmp[[n]]))/nrow(tmp))
   tmp <- tmp[tmp[[n]] == mc]
-  stopifnot(nrow(tmp) != 1L)
+  if (nrow(tmp) == 1L) break
 }
 
 co <- sum(unlist(tmp) * 2 ^ (11:0))
