@@ -49,8 +49,6 @@ r
 
 boards <- get_boards(raw_input)
 
-boards_check <- replicate(floor(length(raw_input)/6), matrix(0L, nrow = 5, ncol = 5), simplify = FALSE)
-
 wins <- rep(NA, length(boards))
 
 for(j in seq_along(boards)) {
