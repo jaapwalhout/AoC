@@ -19,6 +19,8 @@ for (i in 1:80) {
 }
 length(res[[81]])
 
+# answer: 352151
+
 
 #---------
 # part two
@@ -44,4 +46,4 @@ for (i in 1:256) {
 
 sum(counts)
 
-
+# answer: 1601616884019
