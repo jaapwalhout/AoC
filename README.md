@@ -18,3 +18,4 @@ Solutions for the [Advent of Code](https://adventofcode.com/) problems.
 - [Emil Hvitfeldt](https://github.com/EmilHvitfeldt/rstats-adventofcode)
 - Colin Rundel: [2020](https://github.com/rundel/advent_of_code_2020), [2021](https://github.com/rundel/advent_of_code_2021)
 - Ildikó Czeller: [2018](https://github.com/czeildi/advent-of-code/tree/main/solutions_2018), [2019](https://github.com/czeildi/advent-of-code/tree/main/solutions_2019), [2020](https://github.com/czeildi/advent-of-code/tree/main/solutions_2020), [2021](https://github.com/czeildi/advent-of-code/tree/main/solutions_2021)
+- Maarten Demeyer: [2019](https://github.com/mpjdem/adventofcode2019) [2020](https://github.com/mpjdem/adventofcode2020), [2021](https://github.com/mpjdem/adventofcode2021)
