@@ -51,3 +51,8 @@ s <- sapply(min(d):max(d), function(x) {
 } )
 
 min(s)
+
+# option 4
+
+m1 <- (m+1)*m/2
+sum(m1[,which.min(colSums(m1))])
