@@ -20,3 +20,5 @@ Solutions for the [Advent of Code](https://adventofcode.com/) problems.
 - Ildikó Czeller: [2018](https://github.com/czeildi/advent-of-code/tree/main/solutions_2018), [2019](https://github.com/czeildi/advent-of-code/tree/main/solutions_2019), [2020](https://github.com/czeildi/advent-of-code/tree/main/solutions_2020), [2021](https://github.com/czeildi/advent-of-code/tree/main/solutions_2021)
 - Maarten Demeyer: [2019](https://github.com/mpjdem/adventofcode2019), [2020](https://github.com/mpjdem/adventofcode2020), [2021](https://github.com/mpjdem/adventofcode2021)
 - Aron Strandberg: [2019](https://github.com/aronolof/advent-of-code/tree/master/2019), [2020](https://github.com/aronolof/advent-of-code/tree/master/2020), [2021](https://github.com/aronolof/advent-of-code/tree/master/2021)
+- Riinu Pius: [2021](https://github.com/riinuots/advent2021)
+- Calum You: [2020](https://github.com/Zedseayou/advent_of_code/tree/main/2020), [2021](https://github.com/Zedseayou/advent_of_code/tree/main/2021)
