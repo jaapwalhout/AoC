@@ -87,16 +87,13 @@ in_target <- \(x, y) {
   return(check)
 }
 
-lijst <- list()
 r <- 0
 
 for (x in 1:185) {
   for (y in -126:500) {
     r <- r + in_target(x, y)
-    # lijst[[paste0(x,",",y)]] <- in_target(x, y)
   }
 }
 r
 
-Reduce('+', lijst)
 
