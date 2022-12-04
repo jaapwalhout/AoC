@@ -22,3 +22,5 @@ Solutions for the [Advent of Code](https://adventofcode.com/) problems.
 - Aron Strandberg: [2019](https://github.com/aronolof/advent-of-code/tree/master/2019), [2020](https://github.com/aronolof/advent-of-code/tree/master/2020), [2021](https://github.com/aronolof/advent-of-code/tree/master/2021)
 - Riinu Pius: [2021](https://github.com/riinuots/advent2021)
 - Calum You: [2020](https://github.com/Zedseayou/advent_of_code/tree/main/2020), [2021](https://github.com/Zedseayou/advent_of_code/tree/main/2021)
+- Kara Woo: [2022](https://github.com/karawoo/adventofcode2022)
+- Gus Lipkin: [2022](https://github.com/guslipkin/AdventOfCode/tree/main/2022)
