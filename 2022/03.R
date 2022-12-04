@@ -16,8 +16,13 @@ mapply(intersect, d1, d2) |>
 # part 2
 #-------
 
-d <- scan("2022/03_data_test.txt", what = character())
+d <- scan("2022/03_data.txt", what = character())
 
 d <- split(d, rep(1:(length(d)/3), each = 3))
 
-lapply(lapply(d, strsplit, split = ""), intersect)
+f <- \(x) Reduce(intersect, x)
+
+lapply(d, strsplit, split = "") |>
+  sapply(f) |>
+  match(c(letters, LETTERS)) |> 
+  sum()
