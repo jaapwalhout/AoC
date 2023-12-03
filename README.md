@@ -24,3 +24,5 @@ Solutions for the [Advent of Code](https://adventofcode.com/) problems.
 - Calum You: [2020](https://github.com/Zedseayou/advent_of_code/tree/main/2020), [2021](https://github.com/Zedseayou/advent_of_code/tree/main/2021)
 - Kara Woo: [2022](https://github.com/karawoo/adventofcode2022)
 - Gus Lipkin: [2022](https://github.com/guslipkin/AdventOfCode/tree/main/2022)
+- Micheal Hainke: [2022](https://github.com/michael-hainke/Advent_of_Code_2022)
+- Bob Jansen: [2022](https://github.com/bobjansen/AoC2022)
