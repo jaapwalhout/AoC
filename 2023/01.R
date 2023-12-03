@@ -1,4 +1,7 @@
 
+library(stringi)
+library(data.table)
+
 #-------
 # part 1
 #-------
@@ -24,9 +27,6 @@ extract_values(regels) |> sum()
 #-------
 # part 2
 #-------
-
-library(stringi)
-library(data.table)
 
 # regels <- scan(text = "two1nine
 # eightwothree
