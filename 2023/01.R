@@ -47,11 +47,11 @@ rev_string <- \(x) {
   s
 }
 
-pat_first <- paste0("(\\d|", paste0(cijfers, collapse = "|"), ")")
+pat_first <- paste0(c("\\d", cijfers), collapse = "|")
 s1 <- stri_extract_first_regex(regels, pattern = pat_first)
 s1 <- fcoalesce(as.numeric(s1), match(s1, cijfers) - 1)
 
-pat_last <- paste0("(\\d|", paste0(rev_string(cijfers), collapse = "|"),")")
+pat_last <- paste0(c("\\d", rev_string(cijfers)), collapse = "|")
 s2 <- stri_extract_first_regex(rev_string(regels), pattern = pat_last)
 s2 <- fcoalesce(as.numeric(s2), match(rev_string(s2), cijfers) - 1)
 
