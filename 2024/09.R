@@ -83,3 +83,49 @@ v2[is.na(v2)] <- vulling
 # part 2
 # ------
 
+# test data
+d <- "2333133121414131402"
+
+# puzzle data
+d <- scan(file = "2024/09_data.txt", what = character())
+
+b <- strsplit(d, split = "") |> unlist() |> as.integer()
+ib <- seq_along(b)
+i <- {ib %% 2} |> as.logical()
+maxi <- sum(i) - 1
+
+m <- matrix(
+  c(0:maxi, rep(NA, sum(i))),
+  ncol = maxi + 1,
+  byrow = TRUE
+) |> c()
+m <- m[ib]
+
+v <- rep(m, b)
+
+vl <- split(v, rep(seq_along(b[b!=0]), b[b!=0]))
+
+nas <- sapply(vl, \(x) all(is.na(x)))
+nna <- sapply(vl, \(x) sum(is.na(x)))
+
+w <- which(!nas)
+
+for (i in rev(w)) {
+  vi <- vl[[i]]
+  li <- length(vi)
+  
+  nna <- sapply(vl, \(x) sum(is.na(x)))
+  ina <- nna[nna >= li] |> names() |> as.integer()
+  
+  if (i > ina[1] & length(ina) > 0) {
+    if (li <= nna[ina[1]]) {
+      wi <- which(is.na(vl[[ ina[1] ]])) |> head(li)
+      vl[[ ina[1] ]][ wi ] <- vi
+      vl[[i]] <- rep(NA, li)
+    }
+  } 
+}
+
+vlu <- unlist(vl)
+{(seq_along(vlu) - 1) * vlu} |> sum(na.rm = TRUE)
+
